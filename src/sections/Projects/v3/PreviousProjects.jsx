@@ -17,7 +17,7 @@ const PreviousProjects = () => {
             View More <FiChevronRight />
           </Button>
         </SectionTitleWrapper>
-        <div className="row">
+        {/* <div className="row">
           <ul className="menu-list">
             <li>Project name</li>
             <li>Chain</li>
@@ -25,7 +25,7 @@ const PreviousProjects = () => {
             <li>Total Raise</li>
             <li>Progress</li>
           </ul>
-        </div>
+        </div> */}
         <div className="row align-items-center projects-row">
           {data?.map((project, i) => (
             <div key={i} className="col-md-12">
