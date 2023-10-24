@@ -13,7 +13,7 @@ const PageHeader = ({ currentPage, pageTitle }) => {
             <div className="breadcrumb_area">
               <div className="breadcrumb_menu">
                 <>
-                  <a href="# ">Home</a> <span>.</span> {currentPage && currentPage}
+                  <a href="/">Home</a> <span>.</span> {currentPage && currentPage}
                 </>
                 <img
                   className="heading_shape"

@@ -12,8 +12,8 @@ const PageHeader = ({ currentPage }) => {
           <div className="col-lg-12">
             <div className="breadcrumb_area">
               <div className="breadcrumb_menu">
-                <a href="# ">Home <span>.</span> </a>
-                <a href="# ">Projects <span>.</span> </a>
+                <a href="/ ">Home <span>.</span> </a>
+                <a href="/projects-grid ">Projects <span>.</span> </a>
                 <p>{currentPage && currentPage}</p>
                 <img
                   className="heading_shape"

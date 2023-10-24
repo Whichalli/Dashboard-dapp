@@ -1,5 +1,6 @@
 import PartnerStyleWrapper from "./partner.style";
 import data from "assets/data/partner/dataV3";
+import StakeHistory from "../../../StakingPages/v4/StakeHistory/StakeHistory";
 
 const Partner = () => {
   return (
@@ -12,6 +13,11 @@ const Partner = () => {
           </span>
         ))}
       </div>
+      <div className="row">
+                    <div className="col-md-12">
+                        <StakeHistory />
+                    </div>
+                </div>
     </PartnerStyleWrapper>
   );
 };

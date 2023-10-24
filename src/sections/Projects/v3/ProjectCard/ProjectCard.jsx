@@ -22,7 +22,7 @@ const ProjectCard = ({
             <h4 className="mb-10">
               <a href="/projects-details-1"> {title} </a>
             </h4>
-            <div className="dsc">PRICE (FSC) = {price} BUSD</div>
+            <div className="dsc">PRICE (ENSC) = {price} USD</div>
           </div>
         </div>
         <div className="previous-chaining">

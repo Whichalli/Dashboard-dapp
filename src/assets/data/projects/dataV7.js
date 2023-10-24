@@ -56,7 +56,7 @@ export default {
              },
               {
                    title: "Min investment",
-                   text: "0.89 USD"
+                   text: "500 USD"
               },
               {
                    title: "Targeted raise",
@@ -87,11 +87,11 @@ export default {
              },
               {
                    title: "Min investment",
-                   text: "2.25 USD"
+                   text: "500 USD"
               },
               {
                    title: "Targeted raise",
-                   text: "50,00,000 USD"
+                   text: "500,000 USD"
               },
               {
                    title: "",
@@ -118,11 +118,11 @@ export default {
              },
               {
                    title: "Min allocation",
-                   text: "0.59 USD"
+                   text: "500 USD"
               },
               {
                    title: "Targeted raise",
-                   text: "50,000 BUSD"
+                   text: "500,000 BUSD"
               },
               {
                    title: "",

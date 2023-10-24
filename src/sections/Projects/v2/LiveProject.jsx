@@ -80,7 +80,7 @@ const LiveProject = () => {
                   </div>
                   <div className="targeted-raise">
                     <div className="seles-end-text">Fund Ends In</div>
-                    <Countdown date="2024-02-01T01:02:03" renderer={CountdownRender} />
+                    <Countdown date="2023-11-01T01:02:03" renderer={CountdownRender} />
                     <div className="targeted-raise-amount">
                       Targeted Raise {item.targetedRise}
                     </div>

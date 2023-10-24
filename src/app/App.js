@@ -13,6 +13,8 @@ import StakingThree from "pages/staking-3";
 import StakingFour from "pages/staking-4";
 import StakingFive from "pages/staking-5";
 import KycOne from "pages/kyc-1";
+import eNaira from "pages/eNaira";
+import Dex from "pages/dex";
 import KycTwo from "pages/kyc-2";
 import KycThree from "pages/kyc-3";
 import Signin from "pages/login";
@@ -44,6 +46,8 @@ function App() {
       <Route path="/staking-5" element={<StakingFive />} />
       <Route path="/kyc-1" element={<KycOne />} />
       <Route path="/kyc-2" element={<KycTwo />} />
+      <Route path="/eNaira" element={<eNaira />} />
+      <Route path="/Dex" element={<Dex />} />
       <Route path="/kyc-3" element={<KycThree />} />
       <Route path="/login" element={<Signin />} />
       <Route path="/register" element={<Signup />} />

@@ -26,6 +26,7 @@ const ProjectDetails = () => {
                         <div key={i} className="col-sm-6">
                             <TokenInfo {...item} />
                         </div>
+                        
                     ))}
                 </div>
                 <div className="row">

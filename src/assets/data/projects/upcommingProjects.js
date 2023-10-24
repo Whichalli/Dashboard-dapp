@@ -13,6 +13,7 @@ const data = [
         thumb: projectThumb1,
         title: "FCT Abuja Solar Park",
         price: "0.001282 USD",
+        //progress: "36%",
         saleEnd: "08",
         coinIcon: coinIcon2,
         projectDetails: [
@@ -69,7 +70,7 @@ const data = [
            },
             {
                  title: "Min investment",
-                 text: "0.89 USD"
+                 text: "500 USD"
             },
             {
                  title: "Targeted raise",
@@ -116,11 +117,11 @@ const data = [
            },
             {
                  title: "Min investment",
-                 text: "2.25 USD"
+                 text: "500 USD"
             },
             {
                  title: "Targeted raise",
-                 text: "50,00,000 USD"
+                 text: "500,000 USD"
             },
             {
                  title: "",
@@ -167,7 +168,7 @@ const data = [
             },
             {
                  title: "Targeted raise",
-                 text: "50,000 USD"
+                 text: "500,000 USD"
             },
             {
                  title: "",

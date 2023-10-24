@@ -1,6 +1,8 @@
 import Countdown, { zeroPad } from 'react-countdown';
 import ProgressBar from "components/progressBar";
 import Button from "components/button";
+
+import { RiShareCircleFill } from "react-icons/ri";
 import ProjectInfoStyleWrapper from "./ProjectInfo.style";
 
 import projectIcon from "assets/images/project/ninga-image.png"
@@ -9,7 +11,8 @@ import socialData from "assets/data/social/dataV1"
 
 const ProjectInfo = () => {
 
-  const CountdownRender = ({ days, hours, minutes, seconds }) => {
+
+  const CountdownRender = ({ days, hours, minutes, seconds, completed }) => {
     return (
       <div className="countdown_wrapper">
         <div>
@@ -49,7 +52,7 @@ const ProjectInfo = () => {
               </div>
             </div>
             <div className="all-raise">
-              Total Raise 75,999.70 USD ( 86% )
+              Total Raise 0 USD ( 0% )
             </div>
           </div>
           <div className="allocation-max text-center">
@@ -60,21 +63,25 @@ const ProjectInfo = () => {
           </div>
           <div className="targeted-raise">
             <div className="seles-end-text">Fund Ends In</div>
-            <Countdown date="2024-02-01T01:02:03" renderer={CountdownRender} />
+            <Countdown date="2023-11-01T01:02:03" renderer={CountdownRender} />
             <div className="targeted-raise-amount">
-              Targeted Raise 100,000 BUSD
+              Targeted Raise 200,000 BUSD
             </div>
           </div>
         </div>
         <div className="progress-inner">
-          <ProgressBar progress="83%" />
+          <ProgressBar progress="0" />
         </div>
 
         <div className="project_card_footer">
           <Button sm href="# ">
             Fund Project
           </Button>
-          <div className="participants">Investors 0</div>
+          <div className="participants">
+          <a href="# "> Add ENSC To Metamask <RiShareCircleFill /></a>
+ 
+          <a href="#Financials "> Supporting Documents <RiShareCircleFill /> </a>
+          </div>
           <div className="social_links">
             {socialData?.map((profile, i) => (
               <a key={i} href={profile.url}><img src={profile.icon} alt="icon" /></a>
@@ -82,7 +89,9 @@ const ProjectInfo = () => {
 
           </div>
         </div>
+        
       </div>
+      
     </ProjectInfoStyleWrapper>
   );
 };

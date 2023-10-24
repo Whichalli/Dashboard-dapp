@@ -10,27 +10,12 @@ const Partner = () => {
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 3000,
-    cssEase: "linear",
-    centerMode: true,
+    centerMode: false,
     centerPadding: "0px",
-    infinite: true,
-    slidesToShow: 3,
+    infinite: false,
+    slidesToShow: 4,
     slidesToScroll: 1,
     pauseOnHover: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-    ],
   };
   return (
     <PartnerStyleWrapper>
